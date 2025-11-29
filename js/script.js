@@ -1,5 +1,6 @@
 const mostrarMensajeBtn = document.getElementById('mostrarMensajeBtn');
 const addSkillBtn = document.getElementById('agregarHabilidadBtn');
+const colorPicker = document.getElementById('colorPicker');
 let contador = 1;
 mostrarMensajeBtn.addEventListener('click', () => {
 
@@ -23,6 +24,9 @@ addSkillBtn.addEventListener('click', () => {
         alert("Por favor, ingresa una habilidad válida o diferente.");
     }
     document.getElementById("skills").innerHTML += text;
+})
 
+colorPicker.addEventListener('input', (event) => {
+    document.body.style.backgroundColor = event.target.value;
+})
 
-})   
