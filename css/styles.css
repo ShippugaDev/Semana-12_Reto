@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --size: 0.25rem;
+    --font-family-primary: Arial, sans-serif;
+}
+
+button#mostrarMensajeBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: calc(var(--size)*1.5);
+    padding: calc(var(--size)*3) calc(var(--size)*6);
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #409744;
+    }
+}
+
+button#agregarHabilidadBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: calc(var(--size)*1.5);
+    padding: calc(var(--size)*3) calc(var(--size)*6);
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #409744;
+    }
+}
+
+li {
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #d3d2d2;
+    }
+}
+
+.background-light-gray {
+    background-color: #ece8e8;
+}
+
+.b-radius-8 {
+    border-radius: calc(var(--size)*2);
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.color-green {
+    color: #4CAF50;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: calc(var(--size)*8) 0;
+    text-align: center;
+    margin: calc(var(--size)*8) 0;
+    border-radius: calc(var(--size)*1.5);
+}
+
+.f-familiy-primary {
+    font-family: var(--font-family-primary);
+}
+
+.f-size-16 {
+    font-size: calc(var(--size)*4);
+}
+
+.f-size-18 {
+    font-size: calc(var(--size)*4.5);
+}
+
+.f-size-20 {
+    font-size: calc(var(--size)*5);
+}
+
+.f-size-24 {
+    font-size: calc(var(--size)*6);
+}
+
+.f-size-40 {
+    font-size: calc(var(--size)*10);
+}
+
+.f-weight-bold {
+    font-weight: bold;
+}
+
+.footer {
+    color: #777777;
+}
+
+.mg-h1-1 {
+    margin: calc(var(--size)*7) 0 calc(var(--size)*2.5)
+}
+
+.mg-0-0-10 {
+    margin: 0 0 calc(var(--size)*2.5);
+}
+
+.mg-16-0 {
+    margin: calc(var(--size)*4) 0;
+}
+
+.mg-18-0 {
+    margin: calc(var(--size)*4.5) 0;
+}
+
+.mg-20-0 {
+    margin: calc(var(--size)*5) 0;
+}
+
+.mg-20-0-20 {
+    margin: calc(var(--size)*5) 0 calc(var(--size)*5);
+}
+
+.mg-40-0-0 {
+    margin: calc(var(--size)*10) 0 0;
+}
+
+.pd-12 {
+    padding: calc(var(--size)*3);
+}
+
+.pd-1-2 {
+    padding: calc(var(--size)*1) calc(var(--size)*2);
+}
+
+.t-align-center {
+    text-align: center;
+}
+
+ul.list-style-none {
+    list-style: none;
+}
